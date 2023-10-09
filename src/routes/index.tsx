@@ -24,7 +24,7 @@ export default function Index(): JSX.Element {
   return (
     <main>
       <section class="w-full h-[calc(100vh-64px)] flex flex-col gap-10 items-center justify-center px-8 sm:px-16 md:px-20 lg:px-32">
-        <img src={banner} alt="Radon Games" />
+        <img src={banner} alt="Chango Games" />
         <p class="text-center">
           An open-source unblocked games website built with simplicity in mind.
         </p>
