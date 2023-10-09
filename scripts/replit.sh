@@ -7,10 +7,10 @@ fi
 
 if [ ! -d "dist" ];
 then 
-	echo -e "\nBuilding Radon Games...\n"
+	echo -e "\nBuilding Chango Games...\n"
   npm run build
-  echo -e "\nRadon Games build successful\n"
+  echo -e "\nChango Games build successful\n"
 fi
 
-echo -e "\nStarting Radon Games...\n"
+echo -e "\nStarting Chango Games...\n"
 npm start
