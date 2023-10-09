@@ -8,7 +8,7 @@ export default function Navbar(): JSX.Element {
   return (
     <footer class="my-10 px-8 sm:px-16 md:px-20 lg:px-32 flex gap-10 flex-col md:flex-row justify-center items-center md:justify-between">
       <div class="flex flex-col gap-5">
-        <img src={banner} alt="Radon Games" class="h-6 w-min" />
+        <img src={banner} alt="Chango Games" class="h-6 w-min" />
         <p class="w-96 text-sm">
           An open-source unblocked games website built with simplicity in mind.
         </p>
@@ -20,7 +20,7 @@ export default function Navbar(): JSX.Element {
             icon="fa-discord"
           />
           <IconButton
-            href="https://github.com/Radon-Games/Radon-Games"
+            href="https://github.com/Chango-Games/Chango-Games"
             text="GitHub"
             type="fa-brands"
             icon="fa-github"
@@ -29,7 +29,7 @@ export default function Navbar(): JSX.Element {
         <span class="font-semibold">
           <a
             class="hover:underline hover:text-amber-500 transition-all"
-            href={`https://github.com/Radon-Games/Radon-Games/releases/tag/v${version}`}
+            href={`https://github.com/Chango-Games/Chango-Games/releases/tag/v${version}`}
             target="_blank"
           >
             <i class="fa-regular fa-code-branch"></i> v{version}
@@ -50,11 +50,11 @@ export default function Navbar(): JSX.Element {
         <div class="flex flex-col gap-2">
           <FooterLink
             text="Request"
-            href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=game%20request&template=game_request.yaml"
+            href="https://github.com/Chango-Games/Chango-Games/issues/new?assignees=&labels=game%20request&template=game_request.yaml"
           />
           <FooterLink
             text="Report"
-            href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=bug&template=bug_report.yaml"
+            href="https://github.com/Chango-Games/Chango-Games/issues/new?assignees=&labels=bug&template=bug_report.yaml"
           />
           <FooterLink
             text="Patreon"
