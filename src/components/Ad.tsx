@@ -5,7 +5,7 @@ export default function Ad(): JSX.Element {
   const [ad, setAd] = createSignal("");
 
   onMount(() => {
-    fetch("https://hub.alienhub.xyz/showapi?utm_medium=radon")
+    fetch("https://hub.alienhub.xyz/showapi?utm_medium=chango")
       .then((res) => res.json())
       .then((json) => {
         setCampain(json.url);
