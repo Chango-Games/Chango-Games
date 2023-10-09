@@ -44,7 +44,7 @@ httpServer.on("upgrade", (req, socket, head) => {
 });
 
 httpServer.on("listening", () => {
-  console.log(`Radon listening on http://localhost:${PORT}/`);
+  console.log(`Chango listening on http://localhost:${PORT}/`);
 });
 
 httpServer.listen({
