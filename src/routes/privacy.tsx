@@ -7,7 +7,7 @@ export default function Privacy(): JSX.Element {
         <h1 class="text-2xl">Privacy Policy</h1>
         <br />
         <p>
-          Your privacy is important to us. It is Radon Games' policy to respect
+          Your privacy is important to us. It is Chango Games' policy to respect
           your privacy and comply with any applicable law and regulation
           regarding any personal information we may collect about you, including
           across our website,{" "}
