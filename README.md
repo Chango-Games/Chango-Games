@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  Radon Games
+  Chango Games
 </h1>
 
 <p align="center">
@@ -24,11 +24,11 @@
 
 Easily deploy to all your favorite platforms in just a click.
 
-[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Radon-Games/Radon-Games)
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/Radon-Games/Radon-Games)
+[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Chango-Games/Chango-Games)
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/Chango-Games/Chango-Games)
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template/ZXOCUM?referralCode=6_qmvT)
-[![Deploy To Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Radon-Games/Radon-Games&branch=main&name=Radon-Games)
-[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/Radon-Games/Radon-Games)
+[![Deploy To Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Chango-Games/Chango-Games&branch=main&name=Chango-Games)
+[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/Chango-Games/Chango-Games)
 
 ## Regular Deployment
 
@@ -39,8 +39,8 @@ Deploy on local system or VPS.
 - [NodeJS version >=18](https://nodejs.org/)
 
 ```bash
-git clone https://github.com/Radon-Games/Radon-Games.git
-cd Radon-Games
+git clone https://github.com/Chango-Games/Chango-Games.git
+cd Chango-Games
 npm i
 npm run build
 npm start
@@ -48,13 +48,13 @@ npm start
 
 # Contributing
 
-Contributions to Radon are welcome.
+Contributions to Chango are welcome.
 
 ## Cloning
 
 ```bash
-git clone https://github.com/Radon-Games/Radon-Games.git
-cd Radon-Games
+git clone https://github.com/Chango-Games/Chango-Games.git
+cd Chango-Games
 npm i
 ```
 
@@ -68,7 +68,7 @@ npm run dev
 
 ## Adding Games
 
-In order to add games to Radon, you will first need to download the game files using some form of a website scraper. Once you have the game files, you will have to upload them to the [Radon-Games-Assets](https://github.com/Radon-Games/Radon-Games-Assets) in the corresponding folder. Once the games have been uploaded to the repository, you will need to edit [`src/data/games.json`](https://github.com/cohenerickson/Radon-Games/blob/main/src/data/games.json) add add an entry for the game.
+In order to add games to Chango, you will first need to download the game files using some form of a website scraper. Once you have the game files, you will have to upload them to the [Chango-Games-Assets](https://github.com/Chango-Games/Chango-Games-Assets) in the corresponding folder. Once the games have been uploaded to the repository, you will need to edit [`src/data/games.json`](https://github.com/cohenerickson/Chango-Games/blob/main/src/data/games.json) add add an entry for the game.
 
 ## Tech Stack
 
